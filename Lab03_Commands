@@ -1,0 +1,51 @@
+
+
+1. Use the cat command, and display all the .txt files in the current 
+directory on the screen at one go.
+ANSWER:cat *
+
+2. To start any web browser from the command prompt.
+ANSWER: cd /usr/bin 
+    firefox
+
+3. To list lines that does not include ‘and’ in a text file.
+ANSWER:grep -v “and” filename
+
+4. To compress all .dat files in the current directory and vice versa.
+ANSWER:gzip *dat
+
+5. To list all the files in the present working directory including
+   the hidden files.
+ANSWER: ls -a
+
+6. To show all the files in the subdirectories of a directory.
+ANSWER:ls -lr
+
+7. To make changes into environmental variables.
+ANSWER: open ~/.bashrc
+	export X_HOME=PATH OF PACKAGE
+	PATH=$PATH:$X_HOME/bin:
+	export PATH
+	save the file 
+
+
+8. To sort the lines of a file into reverse order.
+ANSWER:sort –r
+
+9. To create a hard link to myfile.txt in the current directory
+   assuming that it is not public_html.
+ANSWER:ln myfile.txt
+
+10. To search for a certain pattern in the files existing in 
+    the current directory.
+ANSWER: grap text *
+
+1. 
+2.
+3.
+4.
+5. 
+6 
+8. 
+9.
+10
